@@ -1,0 +1,28 @@
+{
+  "name": "cicada",
+  "version": "1.0.0",
+  "description": "17 years beneath the sand. The cycle renews beneath Ra's eye.",
+  "main": "logic.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint logic.js app.js logic.test.js",
+    "security": "npm audit --audit-level=high"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-plugin-security": "^3.0.0",
+    "jest": "^29.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k3-2o/cicada.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/k3-2o/cicada/issues"
+  },
+  "homepage": "https://github.com/k3-2o/cicada#readme"
+}

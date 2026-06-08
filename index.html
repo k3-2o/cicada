@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Weighing of the Heart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>𓋹 THE WEIGHING OF THE HEART 𓋹</h1>
+      <p class="subtitle">The 7 Negative Confessions of the CI/CD</p>
+      <div class="stars"></div>
+    </header>
+
+    <section class="intro">
+      <p>
+        When the soul passes through the <strong>17th Gate</strong>, Anubis weighs the heart 
+        against the Feather of Ma'at. Speak truth to the <strong>7</strong> confessions below 
+        and face the judgment of the <strong>42</strong>.
+      </p>
+    </section>
+
+    <section class="scale-section">
+      <div class="scale-wrapper">
+        <div class="scale-beam" id="beam">
+          <div class="pan pan-left" id="panLeft">
+            <span class="pan-icon">❤️</span>
+            <span class="pan-label">Heart</span>
+          </div>
+          <div class="pan pan-right" id="panRight">
+            <span class="pan-icon">🪶</span>
+            <span class="pan-label">Feather</span>
+          </div>
+        </div>
+        <div class="pedestal">
+          <div class="pedestal-eye">𓂀</div>
+        </div>
+      </div>
+      <div class="weight-bar">
+        <div class="weight-track">
+          <div class="weight-fill" id="weightFill"></div>
+        </div>
+        <div class="weight-labels">
+          <span>Light</span>
+          <span id="weightDisplay">0</span>
+          <span>Heavy</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="confessions-section" id="confessionsSection">
+      <h2>⚖️ THE NEGATIVE CONFESSIONS</h2>
+      <p class="confessions-hint">Confess — or deny. The scale remembers.</p>
+      <div id="confessionsList" class="confessions-list"></div>
+    </section>
+
+    <button class="judge-btn" id="judgeBtn">
+      <span class="btn-icon">𓃣</span>
+      WEIGH MY HEART
+      <span class="btn-icon">𓃣</span>
+    </button>
+
+    <section id="judgment" class="judgment hidden">
+      <div class="judgment-card" id="judgmentCard">
+        <div class="judgment-verdict" id="verdictText"></div>
+        <div class="judgment-icon" id="judgmentIcon"></div>
+        <p class="judgment-detail" id="judgmentDetail"></p>
+        <button class="reset-btn" id="resetBtn">𓋹 Return to the Scales 𓋹</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="sands"></div>
+  <script src="logic.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
